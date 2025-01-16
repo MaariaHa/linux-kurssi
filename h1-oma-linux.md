@@ -1,3 +1,13 @@
+# Raportin kirjoittaminen
+-Raportin on tärkeää olla täsmällinen ja sitä kirjoitetaan koko ajan samalla kun tehtävää tehdään.
+-Raportti helpottaa ongelmanratkaisussa, kun tilannetta on jäsennelty, ja pysyy selvillä mitä on jo yritetty.
+- Toistettava toisen henkilön toimesta. Kuka vaan raporttia lukiessa pystyy tekemään samat asiat ja pääsee samaan lopputulokseen.
+- Täsmälliset komennot ja sivut millä vieraillut. Kellonajat kuvaavat työvaiheisiin kulunutta aikaa. Onnistumiset ja ongelmat kuvattava tarkasti, jotta myös toinen henkilö pystyy asian raportin pohjalta toteuttamaan.
+-Helppolukuisuutta lisätään väliotsikoilla ja selkeällä kielellä. 
+-Lähteisiin viitattaessa ne on selkeästi merkittävä tekstiin, ettei tule vaaraa plagioinnista.
+- Pahoja mokia on vältettävä. Asian täytyy pysyä totuudessa, plagiointi on ehdottoman kiellettyä, koskee sekä tekstiä, että kuvia.
+Lähde: Tero Karvinen. 4.7.2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/raportin-kirjoittaminen-4/. Luettu 15.1.2025
+
 # Free Software Foundation
 -	Vapaalla ohjelmistolla tarkoitetaan ohjelmaa, joka on käyttäjän vapaasti ajettavissa, kopioitavissa, muokattavissa ja paranneltavissa.
 -	Vapaa ohjelmisto ei kuitenkaan aina ole ilmainen rahallisesti, vaan sillä tarkoitetaan enemmän käytön suomaa vapautta.
@@ -23,3 +33,21 @@ Vapaa ohjelma tarjoaa mahdollisuuden hyödyntää näitä vapauksia. Jos käytt�
 -	Suurin osa vapaat ohjelmistolisenssit perustuvat tekijänoikeuteen. Se on rajoitettua, millaisia vaatimuksia tekijänoikeudella voidaan asettaa. 
 ## Lähde:
 GNU Operating System. What is Free Software? https://www.gnu.org/philosophy/free-sw.html. Luettu: 15.1.2025.
+
+# h1 Raportti
+Tehtävänantona oli tehdä uusi virtuaalikone, johon asennetaan Linux. Tästä kirjoitetaan myös huolellinen raportti eri työvaiheista. Lähdin lähestymään tehtävään selvittämällä oman tietokoneeni ominaisuuksia ja soveltuvuutta kyseisen tehtävän suorittamiseen.
+
+Minulla oli käytössä kannettava tietokone:
+•	Lenovo Ideapad 3
+•	Suoritin: 11th Gen Intel® Core
+•	RAM: 8,00 Gt, josta käytettävissä 7,80Gt.
+•	C: tallenustila 475Gt, käytettävissä 324Gt
+•	Käyttöjärjestelmä: Windows 11 versio 24H2
+
+16.1.2025 14:00
+Aloitin tutustumalla virtuaalikoneen asennusohjeisiin (https://terokarvinen.com/2021/install-debian-on-virtualbox/). Sivulta löysin suoran linkin virtuaalikoneen asentamiseen sekä Debian ISO Imagen latausohjeet.
+Aloitin lataamalla Debian ISO Imagen ja hain . https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ verkkosivuilta uusimman version joka oli nimellä: 
+debian-live-12.9.0—amd64-xfce.iso
+Sen jälkeen siirryin virtuaalikoneen lataamisen pariin. Suora linkki virtuaalikoneen lataamisen löytyi Tero Karvisen ohjeista (Install Debian on Virtualbox - Updated 2024) ja valitsin siellä windowsille sopivan virtuaalikoneen.
+![image](https://github.com/user-attachments/assets/09a07dca-fc06-4f79-af9c-13ca2667b617)
+
