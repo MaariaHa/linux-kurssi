@@ -40,10 +40,15 @@ Vapaa ohjelma tarjoaa mahdollisuuden hyödyntää näitä vapauksia. Jos käytt�
 Tehtävänantona oli tehdä uusi virtuaalikone, johon asennetaan Linux. Tästä kirjoitetaan myös huolellinen raportti eri työvaiheista. Lähdin lähestymään tehtävään selvittämällä oman tietokoneeni ominaisuuksia ja soveltuvuutta kyseisen tehtävän suorittamiseen.
 
 Minulla oli käytössä kannettava tietokone 💻:
+
 •	Lenovo Ideapad 3
+
 •	Suoritin: 11th Gen Intel® Core
+
 •	RAM: 8,00 Gt, josta käytettävissä 7,80Gt.
+
 •	C: tallenustila 475Gt, käytettävissä 324Gt
+
 •	Käyttöjärjestelmä: Windows 11 versio 24H2
 
 **16.1.2025 14:00**
