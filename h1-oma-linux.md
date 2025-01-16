@@ -51,6 +51,7 @@ Aloitin tutustumalla virtuaalikoneen asennusohjeisiin (https://terokarvinen.com/
 Aloitin lataamalla Debian ISO Imagen ja hain Debianin https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ verkkosivuilta uusimman version joka oli nimellä: 
 debian-live-12.9.0—amd64-xfce.iso
 Sen jälkeen siirryin virtuaalikoneen lataamisen pariin. Suora linkki virtuaalikoneen lataamisen löytyi Tero Karvisen ohjeista (Install Debian on Virtualbox - Updated 2024) ja valitsin siellä windowsille sopivan virtuaalikoneen.
+
 ![image](https://github.com/user-attachments/assets/09a07dca-fc06-4f79-af9c-13ca2667b617)
 
 Lähdin suorittamaan VirtualBoxin asennusohjelmaa.
