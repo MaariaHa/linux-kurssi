@@ -117,8 +117,12 @@ Siirryin asentamaan seuraavaksi Debiania uudessa virtuaalikoneessani.
 
 # Lähteet:
 Tero Karvinen. 4.6.2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/raportin-kirjoittaminen-4/. Luettu 16.1.2025
+
 Tero Karvinen. Linux Palvelimet 2025 alkukevät. https://terokarvinen.com/linux-palvelimet/. Luettu 16.1.2025
+
 Debian ISO Image. https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/. Luettu 16.1.2025
+
 VirtualBox Foorumi. https://forums.virtualbox.org/viewtopic.php?t=108582. Luettu. 16.1.2025
+
 GNU Operating System. What is Free Software? https://www.gnu.org/philosophy/free-sw.html. Luettu: 16.1.2025.
 
