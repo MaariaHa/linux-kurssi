@@ -32,7 +32,7 @@ Vapaa ohjelma tarjoaa mahdollisuuden hyödyntää näitä vapauksia. Jos käytt�
 
 ## Lakiin liittyvät näkökulmat
 -	Jotta vapaus ohjelmistojen kehityksessä säilyy, niiden on oltava pysyviä niin kauan kun mitään väärää ei niiden avulla tehdä. Jos ohjelmiston kehittäjä 	lisää rajoituksia omaehtoisesti ohjelmiston ehtoihin, ei se enää ole vapaasti hyödynnettävissä.
--	
+
 ## Sopimukseen perustuvat lisenssit
 -	Suurin osa vapaat ohjelmistolisenssit perustuvat tekijänoikeuteen. Se on rajoitettua, millaisia vaatimuksia tekijänoikeudella voidaan asettaa. 
 
