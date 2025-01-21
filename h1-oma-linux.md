@@ -1,4 +1,4 @@
-Maaria Hakanpää
+# Maaria Hakanpää
 
 Tässä tehtävässä olen tiivistänyt kaksi artikkelia, sekä kuvannut raportissa virtuaalikoneen tekemistä sekä Linuxin asennusta. 
 
