@@ -8,7 +8,9 @@ Komentokehoite kirjoitetaan promptin jälkeen. Seuraavaksi esittelen muutamia ta
 -	sudo apt-get update päivittää saatavilla olevat paketit. sudo komennon edessä tarkoittaa komennon suorittamista pääkäyttäjänä.
 -	sudo apt-get install komennolla voidaan asentaa monia erilaisia sovelluksia koneelle lisäämällä installin perään asennettavan ohjelman nimen, kuten micro. 
 Peruskomentoja on luonnollisesti paljon enemmän, mutta tässä oli vain muutama esimerkki.
-Jonkin verran komentorivin käyttöä harjoiteltuani, huomaan miten nopea ja kätevä tapa se on käsitellä tiedostoja. 
+Jonkin verran komentorivin käyttöä harjoiteltuani, huomaan miten nopea ja kätevä tapa se on käsitellä tiedostoja.
+
+ 
 Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
 # h2 Raportti
