@@ -19,7 +19,7 @@ Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/20
 **23.1.2025 9:00**
 
 
-Tehtävänantona oli asentaa Linuxille micro-editori. Se tuli asennettua jo viikon luennolla tehtävien harjoitusten lomassa, mutta se onnistuu komentorivillä komennolla: sudo apt-get install micro. Luon uuden tekstitiedoston nimellä arkiaskareet.
+Tehtävänantona oli asentaa Linuxille micro-editori. Se tuli asennettua jo viikon luennolla tehtävien harjoitusten lomassa, mutta se onnistuu komentorivillä komennolla: sudo apt-get install micro. Loin uuden tekstitiedoston nimellä arkiaskareet.
 
 ![image](https://github.com/user-attachments/assets/9a285695-9068-4d48-81a1-5ca7857bc24c)
 
