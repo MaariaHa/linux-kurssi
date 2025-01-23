@@ -54,12 +54,12 @@ Tehtävässä annettiin ohjeeksi asentaa kolme vapaavalintaista terminaaliohjelm
 
  
  
-Monen ohjelman lataaminen onnistuu, kun laittaa ohjelman nimet peräkkäin (välilyönneillä eroteltuna) sudo apt-get install koemnnon perään.
+Monen ohjelman lataaminen onnistuu, kun laittaa ohjelman nimet peräkkäin (välilyönneillä eroteltuna) sudo apt-get install komennon perään.
 
 ![image](https://github.com/user-attachments/assets/cfd3ef19-ab83-4f77-83ce-390e72591501)
 
  
-Tässä siis ladataan kaksi ohjelmaa, alapuolella näkyvä sl(juna) sekä alempana oleva tldr(komentokehoiteapuri) ohjelma. Kerralla voidaan asentaa myös enemmän kuin kaksi ohjelmaa, listaamalla ne esimerkin tavoin peräkkäin.
+Tässä siis ladattiin kaksi ohjelmaa, alapuolella näkyvä sl(juna) sekä alempana oleva tldr(komentokehoiteapuri) ohjelma. Kerralla voidaan asentaa myös enemmän kuin kaksi ohjelmaa, listaamalla ne esimerkin tavoin peräkkäin.
 
 ![image](https://github.com/user-attachments/assets/03099cce-8cd4-4c7d-8d07-418af046d681)
 
