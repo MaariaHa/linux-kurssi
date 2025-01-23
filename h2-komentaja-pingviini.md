@@ -1,5 +1,5 @@
 # Johdanto
-Tämän tehtävä sisältää tiivistelmän Tero Karvisen artikkelista komentokehtoitteista ja niiden käytöstä. Tehtävän toiseen osioon kuului omia harjoituksia komentokehoitteen parissa ja niiden raportoiminen.
+Tämän tehtävä sisältää tiivistelmän Tero Karvisen artikkelista komentokehoitteista ja niiden käytöstä. Tehtävän toiseen osioon kuului omia harjoituksia komentokehoitteen parissa ja niiden raportoiminen.
 
 
 # Perusteet komentorivin käytöstä
