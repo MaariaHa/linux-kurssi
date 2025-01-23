@@ -177,6 +177,9 @@ Seuraavaksi siirryin listaamaan koneen rautaa, ja koska minulla ei näemmä ollu
 
 ![image](https://github.com/user-attachments/assets/9b35e89f-4ca3-4caf-ad38-a85f95f19343)
 
+
+# Rauta
+
  
 Seuraavaksi pääsin tarkastelemaan virtuaalikoneen ominaisuuksia tarkemmin.
 
