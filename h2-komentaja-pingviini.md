@@ -161,7 +161,7 @@ Näyttää ma kansiosta ne vain ne tiedostot, joissa lukee kissa
 ![image](https://github.com/user-attachments/assets/1cd414e4-a94b-4ce8-9bbd-7d5b32722b8f)
 
  
-Listasin journlista 10 tapahtumaa, ja lisäsin niihin rivinumerot.
+Listasin journalista 10 tapahtumaa, ja lisäsin niihin rivinumerot.
 
 ![image](https://github.com/user-attachments/assets/9b6573bb-6fc9-4c70-8873-6fd2e8f2e10a)
 
