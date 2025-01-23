@@ -207,6 +207,11 @@ Seuraavaksi pääsin tarkastelemaan virtuaalikoneen ominaisuuksia tarkemmin.
 
 	kuvaa koneen prosessoria, joka on sama kuin fyysisen hardwaren prosessori, josta virtuaalikone ”lainaa” kapasiteettia
 
+ **network	82540EM Gigabit Ethernet Controller**
+ 
+	kuvaa konee verkon ominaisuutta
+
+
 
 # Lokit
 Näissä parissa lokitiedoissa näkyy edeltävän tehtävän lokitiedot.
