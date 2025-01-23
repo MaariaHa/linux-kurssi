@@ -1,3 +1,7 @@
+# Johdanto
+Tämän tehtävä sisältää tiivistelmän Tero Karvisen artikkelista komentokehtoitteista ja niiden käytöstä. Tehtävän toiseen osioon kuului omia harjoituksia komentokehoitteen parissa ja niiden raportoiminen.
+
+
 # Perusteet komentorivin käytöstä
 Komentokehoite kirjoitetaan promptin jälkeen. Seuraavaksi esittelen muutamia tavallisimpia komentokehoitteita.
 -	pwd näyttää working directoryn..
