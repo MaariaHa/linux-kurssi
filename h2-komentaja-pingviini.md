@@ -181,13 +181,28 @@ Seuraavaksi pääsin tarkastelemaan virtuaalikoneen ominaisuuksia tarkemmin.
  
 
 **system	VirtualBox**
+
+
 	Virtuaalikoneen malli
+ 
+ 
 **memory	128KiB BIOS**
+
+
 	Tämä muistialue on varattu BIOSille, eli koneen käynnistyessä tarvittaville prosesseille
+
+ 
 **memory	4GiB System memory**
+
+
 	kertoo järjestelmämuistin koon
+
+ 
 **processor	11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz**
+
+
 kuvaa koneen prosessoria, joka on sama kuin fyysisen harwaren prosessori, josta virtuaalikone ”lainaa” kapasiteettia
+
 
 # Lokit
 Näissä parissa lokitiedoissa näkyy edeltävän tehtävän lokitiedot.
