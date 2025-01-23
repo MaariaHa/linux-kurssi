@@ -23,7 +23,7 @@ Tehtävänantona oli asentaa Linuxille micro-editori. Se tuli asennettua jo viik
 
 ![image](https://github.com/user-attachments/assets/9a285695-9068-4d48-81a1-5ca7857bc24c)
 
-Komento micro arkiaskareet.txt avaa heti tekstieditorin jossa pääsen tekstitiedostoa muokkaamaan.
+Komento micro arkiaskareet.txt avasi heti tekstieditorin jossa pääsin tekstitiedostoa muokkaamaan.
 
 
 ![image](https://github.com/user-attachments/assets/67afcc8f-0880-430a-b9a1-ad6c821d995c)
@@ -31,7 +31,7 @@ Komento micro arkiaskareet.txt avaa heti tekstieditorin jossa pääsen tekstitie
 
  
 
-Muista tallentaa teksti ctrl + s ja tekstieditorista pääsee poistumaan ctrl + q.
+**Muista tallentaa teksti ctrl + s** ja tekstieditorista pääsee poistumaan ctrl + q.
 
 Ennen uusien ohjelmien lataamista suositellaan tekemään päivitykset.
 
