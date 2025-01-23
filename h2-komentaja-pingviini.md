@@ -33,6 +33,8 @@ Komento micro arkiaskareet.txt avaa heti tekstieditorin jossa pääsen tekstitie
 
 Muista tallentaa teksti ctrl + s ja tekstieditorista pääsee poistumaan ctrl + q.
 
+Ennen uusien ohjelmien lataamista suositellaan tekemään päivitykset.
+
 
  ![image](https://github.com/user-attachments/assets/dc23bc8c-d79d-408b-9916-0d977d700e4d)
 
