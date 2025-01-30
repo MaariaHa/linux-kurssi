@@ -255,19 +255,19 @@ f) Anna esimerkit curl -l sekä curl komennoista. Selitä curl -l muutamasta nä
 curl -I localhost näyttää erilaista tietoa localhostista.
 
 
-HTTP on localhostin käyttämä protokolla, ja kuten aikaisemmastakin tehtävästä tuli selville, 200, on HTTP:n kuittaus, ok.
+**HTTP** on localhostin käyttämä protokolla, ja kuten aikaisemmastakin tehtävästä tuli selville, 200, on HTTP:n kuittaus, ok.
 
 
-Date kertoo ajan jolloin palvelin lähetti vastauksen
+**Date** kertoo ajan jolloin palvelin lähetti vastauksen
 
 
-Server on palvelimen ohjelmisto(Apache) sekä versio (Debian)
+**Server** on palvelimen ohjelmisto(Apache) sekä versio (Debian)
 
 
-Last-Modified: Koska tiedostoa on viimeksi muokattu
+**Last-Modified:** Koska tiedostoa on viimeksi muokattu
 
 
-ETag on palvelimen verkkosivulle antaman tunniste, joka edustaa sivun tiettyä versiota. Jos tiedostoon ei ole tullut muutoksia, sivuston lataaminen on nopeampaa koska palvelimen ei tarvitse lähettää sitä uudelleen.
+**ETag** on palvelimen verkkosivulle antaman tunniste, joka edustaa sivun tiettyä versiota. Jos tiedostoon ei ole tullut muutoksia, sivuston lataaminen on nopeampaa koska palvelimen ei tarvitse lähettää sitä uudelleen.
 
 
 ![image](https://github.com/user-attachments/assets/30ac5be6-474b-45cc-b69c-f78644cefdd6)
@@ -331,14 +331,21 @@ sumo logic. 14.1.2020. Understanding the Apache Access Log: View, Locate and Ana
 
 Apache. Log Files. https://httpd.apache.org/docs/2.4/logs.html. Luettu: 30.1.2025
 
+
 mdn web docs. User-Agent. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent. Luettu. 30.1.2025
+
+
+mdn web docs. ETag. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag. Luettu: 30.1.2025
 
 
 keycdn. 4.10.2018. Understanding the Apache Access Log. https://www.keycdn.com/support/apache-access-log. Luettu: 30.1.2025
 
+
 punomo. 4.3.2018HTML5 ja Web-sivun rakenne. https://punomo.fi/html5-ja-web-sivun-rakenne/. Luettu: 30.1.2025
 
+
 Tero Karvinen. 12.2.2012. Short HTML5 Page. https://terokarvinen.com/2012/short-html5-page/. Luettu: 30.1.2025
+
 
 pixabay. https://pixabay.com/
 
