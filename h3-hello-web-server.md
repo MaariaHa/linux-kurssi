@@ -233,7 +233,7 @@ Edellisestä HTML-kurssista oli ehtinyt kulua jo reilu vuosi, joten kävin muist
 ![image](https://github.com/user-attachments/assets/eb103c43-dcc7-4abc-8be5-3644be577434)
 
 
-Tein todella yksinkertaisen sivun, mutta siinä löytyi otsikko, kuva sekä pari tekstikappaletta. Kuvan hain pixabaysta, ilmaisesta kuvapankista, kuva löytyi yllättäen hakusanalla hattu. Kuvatiedostolle tein oman kansion, mkdir hattu.example.com kansion alle.
+Tein todella yksinkertaisen sivun, mutta siinä löytyi otsikko, kuva sekä pari tekstikappaletta. Kuvan hain pixabaysta, ilmaisesta kuvapankista, kuva löytyi yllättäen hakusanalla hattu. Kuvatiedostolle tein oman kansion (mkdir images), hattu.example.com kansion alle.
 
 
 ![image](https://github.com/user-attachments/assets/b117d0df-818f-457d-ae95-a17632342726)
