@@ -79,41 +79,41 @@ Joka tapauksessa, tarkastelin lähemmin loki rivejä.
 127.0.0.1 - - [28/Jan/2025:20:13:15 +0200] ”GET / http/1.1” 200 3380 ”-” ”Mozilla/5.0 (x11; Linux x86_64; rv:128.0) Gecko /20100101 Firefox/128.0”
 
 
-127.0.0.1  Localhostin IP- osoite
-- -   Identifioi hostin, eli toisinsanoen, minun oman koneen. Tässä tapauksessa sille ei ollut mitään tarkempaa nimeä tai määritelmää annettu.
+**127.0.0.1** :2B05: Localhostin IP- osoite
+**"- -"**   Identifioi hostin, eli toisinsanoen, minun oman koneen. Tässä tapauksessa sille ei ollut mitään tarkempaa nimeä tai määritelmää annettu.
  
-  -  
-[28/Jan/2025:20:13:15 +0200]  Tapahtuman päivämäärä ja kellonaika, viimeisinä numeroina + jälkeen tarkoittaa UTC +2, joka on siis Suomen aikavyöhyke näin talvella.
+ 
+**[28/Jan/2025:20:13:15 +0200]**  Tapahtuman päivämäärä ja kellonaika, viimeisinä numeroina + jälkeen tarkoittaa UTC +2, joka on siis Suomen aikavyöhyke näin talvella.
 
 
-”GET / http/1.1”  HTTP pyyntö
+**”GET / http/1.1”**  HTTP pyyntö
 
 
-200 3380  HTTP statuskoodi, 200=ok, toinen numero on vastauksen koko tavuina
+**200 3380**  HTTP statuskoodi, 200=ok, toinen numero on vastauksen koko tavuina
 
 
-”-”  Lähettäjä, tämä kohta on tyhjä
+**”-”**  Lähettäjä, tämä kohta on tyhjä
 
 
-Mozilla/5.0  Käyttäjäagentti
+**Mozilla/5.0**  Käyttäjäagentti
 
 
-(x11  Käyttöjärjestelmän graafinen järjestelmä
+**(x11**  Käyttöjärjestelmän graafinen järjestelmä
 
 
-Linux x86_64  Käyttöjärjestelmä ja sen arkkitehtuuri, 64-bittinen Linux
+**Linux x86_64**  Käyttöjärjestelmä ja sen arkkitehtuuri, 64-bittinen Linux
 
 
-rv:128.0  Firefoxin versio
+**rv:128.0**  Firefoxin versio
 
 
-) Gecko  Firefoxin käyttämä selainmoottori
+** Gecko**  Firefoxin käyttämä selainmoottori
 
 
-20100101  Päivämäärä viittaa Gecko-  moottorin tunnukseen, eikä vastaa tämän hetkistä päivää
+**20100101**  Päivämäärä viittaa Gecko-  moottorin tunnukseen, eikä vastaa tämän hetkistä päivää
 
 
-Firefox/128.0”  Selain ja sen tarkka versio
+**Firefox/128.0”**  Selain ja sen tarkka versio
 
 
 127.0.0.1 - - [28/Jan/2025:20:13:16 +0200] "GET /icons/openlogo-75.png HTTP/1.1" 200 6040”http://localhost/” ”Mozilla/5.0 (x11; Linux x86_64; rv:128.0) Gecko /20100101 Firefox/128.0”
