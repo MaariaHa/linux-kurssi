@@ -17,27 +17,27 @@ Lähde: Apache. Name-based Virtual Host Support.
 -	Apachen avulla, yhdelle IP osoitteelle voi olla monta domain nimeä.
 -	Seuraavilla komennoilla ja konfiguroinneilla saa luotua nimipohjaisen virtuaalipalvelimen komentorivikäyttöliittymässä:
 o	Asenna ja konfiguroi webbiserveri korvaamalla oletusverkkosivut
-	$ sudo apt-get -y install apache2
-	$ echo "Default"|sudo tee /var/www/html/index.html
+*	$ sudo apt-get -y install apache2
+*	$ echo "Default"|sudo tee /var/www/html/index.html
 o	Lisää uusi nimipohjainen virtuaalipalvelin
-	$ sudoedit /etc/apache2/sites-available/kissa.example.com.conf
-	$ cat /etc/apache2/sites-available/kissa.example.com.conf
-	<VirtualHost *:80>
-	 ServerName kissa.example.com
-	 ServerAlias www.kissa.example.com
-	 DocumentRoot /home/maaria/publicsites/kissa.example.com
-	 <Directory /home/maaria/publicsites/kissa.example.com>
-	   Require all granted
-	 </Directory>
-	</VirtualHost>
-	$ sudo a2ensite kissa.example.com
-	$ sudo systemctl restart apache2
+*	$ sudoedit /etc/apache2/sites-available/kissa.example.com.conf
+*	$ cat /etc/apache2/sites-available/kissa.example.com.conf
+*	<VirtualHost *:80>
+*	 ServerName kissa.example.com
+*	 ServerAlias www.kissa.example.com
+*	 DocumentRoot /home/maaria/publicsites/kissa.example.com
+*	 <Directory /home/maaria/publicsites/kissa.example.com>
+*	   Require all granted
+*	 </Directory>
+*	</VirtualHost>
+*	$ sudo a2ensite kissa.example.com
+*	$ sudo systemctl restart apache2
 o	Luo uusi weppisivu normaali käyttäjänä
-	mkdir -p /home/maaria/publicsites/kissa.example.com/
-	$ echo kissa > /home/maaria/publicsites/kissa.example.com/index.html
+*	mkdir -p /home/maaria/publicsites/kissa.example.com/
+*	$ echo kissa > /home/maaria/publicsites/kissa.example.com/index.html
 o	Testaa
-	$ curl -H 'Host: kissa.example.com' localhost
-	$ curl localhost
+*	$ curl -H 'Host: kissa.example.com' localhost
+*	$ curl localhost
 Samalle IP-osoitteelle voi siis lisätä niin monta virtual hostia kuin haluaa.
 Lähde: Tero Karvinen.10.4.2018.Name Based Virtual Hosts on Apache -  Multiple Websites to Single IP Address.
 
