@@ -80,6 +80,8 @@ Joka tapauksessa, tarkastelin lähemmin loki rivejä.
 
 
 **127.0.0.1** :arrow_right: Localhostin IP- osoite
+
+
 **"- -"**  :arrow_right: Identifioi hostin, eli toisinsanoen, minun oman koneen. Tässä tapauksessa sille ei ollut mitään tarkempaa nimeä tai määritelmää annettu.
  
  
