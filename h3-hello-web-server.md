@@ -25,9 +25,9 @@ o	Lisää uusi nimipohjainen virtuaalipalvelin
  *	 ServerName kissa.example.com
  *	 ServerAlias www.kissa.example.com
  *	 DocumentRoot /home/maaria/publicsites/kissa.example.com
- *	 <Directory /home/maaria/publicsites/kissa.example.com>
- *	   Require all granted
- *	   Alkuun ja loppuun tulee VirtualHost sekä Directory elementit
+ *	 /home/maaria/publicsites/kissa.example.com>
+ *	Require all granted
+ *	Alkuun ja loppuun tulee VirtualHost sekä Directory elementit
  *	$ sudo a2ensite kissa.example.com
  *	$ sudo systemctl restart apache2
 o	Luo uusi weppisivu normaali käyttäjänä
