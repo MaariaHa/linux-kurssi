@@ -79,38 +79,38 @@ Joka tapauksessa, tarkastelin lähemmin loki rivejä.
 127.0.0.1 - - [28/Jan/2025:20:13:15 +0200] ”GET / http/1.1” 200 3380 ”-” ”Mozilla/5.0 (x11; Linux x86_64; rv:128.0) Gecko /20100101 Firefox/128.0”
 
 
-**127.0.0.1** :2B05: Localhostin IP- osoite
-**"- -"**   Identifioi hostin, eli toisinsanoen, minun oman koneen. Tässä tapauksessa sille ei ollut mitään tarkempaa nimeä tai määritelmää annettu.
+**127.0.0.1** :arrow_right: Localhostin IP- osoite
+**"- -"**  :arrow_right: Identifioi hostin, eli toisinsanoen, minun oman koneen. Tässä tapauksessa sille ei ollut mitään tarkempaa nimeä tai määritelmää annettu.
  
  
-**[28/Jan/2025:20:13:15 +0200]**  Tapahtuman päivämäärä ja kellonaika, viimeisinä numeroina + jälkeen tarkoittaa UTC +2, joka on siis Suomen aikavyöhyke näin talvella.
+**[28/Jan/2025:20:13:15 +0200]** :arrow_right: Tapahtuman päivämäärä ja kellonaika, viimeisinä numeroina + jälkeen tarkoittaa UTC +2, joka on siis Suomen aikavyöhyke näin talvella.
 
 
-**”GET / http/1.1”**  HTTP pyyntö
+**”GET / http/1.1”** :arrow_right: HTTP pyyntö
 
 
-**200 3380**  HTTP statuskoodi, 200=ok, toinen numero on vastauksen koko tavuina
+**200 3380** :arrow_right: HTTP statuskoodi, 200=ok, toinen numero on vastauksen koko tavuina
 
 
-**”-”**  Lähettäjä, tämä kohta on tyhjä
+**”-”** :arrow_right: Lähettäjä, tämä kohta on tyhjä
 
 
-**Mozilla/5.0**  Käyttäjäagentti
+**Mozilla/5.0** :arrow_right: Käyttäjäagentti
 
 
-**(x11**  Käyttöjärjestelmän graafinen järjestelmä
+**(x11** :arrow_right: Käyttöjärjestelmän graafinen järjestelmä
 
 
-**Linux x86_64**  Käyttöjärjestelmä ja sen arkkitehtuuri, 64-bittinen Linux
+**Linux x86_64** :arrow_right: Käyttöjärjestelmä ja sen arkkitehtuuri, 64-bittinen Linux
 
 
-**rv:128.0**  Firefoxin versio
+**rv:128.0** :arrow_right: Firefoxin versio
 
 
-** Gecko**  Firefoxin käyttämä selainmoottori
+**Gecko** :arrow_right: Firefoxin käyttämä selainmoottori
 
 
-**20100101**  Päivämäärä viittaa Gecko-  moottorin tunnukseen, eikä vastaa tämän hetkistä päivää
+**20100101** :arrow_right: Päivämäärä viittaa Gecko-  moottorin tunnukseen, eikä vastaa tämän hetkistä päivää
 
 
 **Firefox/128.0”**  Selain ja sen tarkka versio
@@ -119,31 +119,31 @@ Joka tapauksessa, tarkastelin lähemmin loki rivejä.
 127.0.0.1 - - [28/Jan/2025:20:13:16 +0200] "GET /icons/openlogo-75.png HTTP/1.1" 200 6040”http://localhost/” ”Mozilla/5.0 (x11; Linux x86_64; rv:128.0) Gecko /20100101 Firefox/128.0”
 
 
-GET /icons/openlogo-75.png  Tämä on pyyntö Apache palvelimelta, tiedostoa nimeltä openlogi-75.png haetaan kansiosta icons.
+**GET /icons/openlogo-75.png** :arrow_right: Tämä on pyyntö Apache palvelimelta, tiedostoa nimeltä openlogi-75.png haetaan kansiosta icons.
 
 
-200 HTTP kuittaus
+**200** :arrow_right: HTTP kuittaus
 
 
-6040  tiedoston koko tavuina
+**6040** :arrow_right: tiedoston koko tavuina
 
 
-http://localhost/  Lähettäjä on tässä tilanteessa localhost palvelin
+**http://localhost/** :arrow_right: Lähettäjä on tässä tilanteessa localhost palvelin
 
 
 127.0.0.1 - - [28/Jan/2025:20:13:15 +0200] ” GET /favicon.ico HTTP/1.1” 404 407 ”http://localhost/” ”Mozilla/5.0 (x11; Linux x86_64; rv:128.0) Gecko /20100101 Firefox/128.0”
 
 
-GET /favicon.ico   HTTP pyyntö, jolla haetaan selaimen oletuksena pyytämää tiedostoa, selaimet hakevat sen automaattisesti kun verkkosivu ladataan
+**GET /favicon.ico**  :arrow_right: HTTP pyyntö, jolla haetaan selaimen oletuksena pyytämää tiedostoa, selaimet hakevat sen automaattisesti kun verkkosivu ladataan
 
 
-404  Vikakoodi, ”not found”
+**404** :arrow_right: Vikakoodi, ”not found”
 
 
-407  vastauksen sisällön koko tavuina
+**407** :arrow_right: vastauksen sisällön koko tavuina
 
 
-http://localhost sivu jolta pyyntö tehtiin
+**http://localhost** :arrow_right: sivu jolta pyyntö tehtiin
 
 
 Lähteitä, josta sain apuja lokirivien tulkitsemiseen:
