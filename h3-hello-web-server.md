@@ -58,12 +58,14 @@ Seuraavaksi lähdin testaamaan, vieläkö toissapäivänä luomani webbipalvelin
 
 
 
-localhostista tulee vastaus, joten weppipalvein näytti olevan käynnissä ja toimiva edelleen.
+localhostista tulee vastaus, joten weppipalvein näytti olevan käynnissä ja toimivan edelleen.
 
 **30.1.2025 11:00**
 
 
 b) Etsi lokirivit, jotka syntyvät kun palvelimelta lataa sivun.
+
+
 Kokeilin vielä curl komennolla palvelimen toimivuutta komentokehoitteessa harjoituksen vuoksi.
 
 
