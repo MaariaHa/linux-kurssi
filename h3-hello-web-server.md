@@ -22,14 +22,12 @@ o	Asenna ja konfiguroi webbiserveri korvaamalla oletusverkkosivut
 o	Lisää uusi nimipohjainen virtuaalipalvelin
  *	$ sudoedit /etc/apache2/sites-available/kissa.example.com.conf
  *	$ cat /etc/apache2/sites-available/kissa.example.com.conf
- *	<VirtualHost *:80>
  *	 ServerName kissa.example.com
  *	 ServerAlias www.kissa.example.com
  *	 DocumentRoot /home/maaria/publicsites/kissa.example.com
  *	 <Directory /home/maaria/publicsites/kissa.example.com>
  *	   Require all granted
- *	 </Directory>
- *	</VirtualHost>
+ *	   Alkuun ja loppuun tulee VirtualHost sekä Directory elementit
  *	$ sudo a2ensite kissa.example.com
  *	$ sudo systemctl restart apache2
 o	Luo uusi weppisivu normaali käyttäjänä
