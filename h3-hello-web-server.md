@@ -230,7 +230,7 @@ e) Tee validi HTML5 sivu.
 Edellisestä HTML-kurssista oli ehtinyt kulua jo reilu vuosi, joten kävin muistelemassa miten HTML5 sivun rakenne menikään. Löysin (https://punomo.fi/html5-ja-web-sivun-rakenne/) hyvän lähteen mistä pääsin rakentamaan elementtejä sivulle. 
 
 
-![image](https://github.com/user-attachments/assets/eb103c43-dcc7-4abc-8be5-3644be577434
+![image](https://github.com/user-attachments/assets/eb103c43-dcc7-4abc-8be5-3644be577434)
 
 
 Tein todella yksinkertaisen sivun, mutta siinä löytyi otsikko, kuva sekä pari tekstikappaletta. Kuvan hain pixabaysta, ilmaisesta kuvapankista, kuva löytyi yllättäen hakusanalla hattu. Kuvatiedostolle tein oman kansion, mkdir hattu.example.com kansion alle.
