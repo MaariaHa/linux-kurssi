@@ -207,7 +207,7 @@ Kokeilin ensin title- elementtiä, mutta jostain syystä sivusto ei näyttänyt 
 ![image](https://github.com/user-attachments/assets/863fca43-afdf-4157-be4e-a61b3b040794)
 
 
-Vaihdoin sen <p> elementtiin, jolloin sain tekstin näkyville.
+Vaihdoin sen p- elementtiin, jolloin sain tekstin näkyville.
 
 
 ![image](https://github.com/user-attachments/assets/840c88dc-9a64-4bf4-accb-1404ec6256d0)
