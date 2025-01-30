@@ -227,7 +227,7 @@ hattu.example.com oli onnistuneesti asetettu toimintakuntoon.
 e) Tee validi HTML5 sivu.
 
 
-Edellisestä HTML-kurssista oli ehtinyt kulua jo reilu vuosi, joten kävin muistelemassa miten HTML5 sivun rakenne menikään. Löysin (https://punomo.fi/html5-ja-web-sivun-rakenne/) hyvän lähteen mistä pääsin rakentamaan elementtejä sivulle. 
+Edellisestä HTML-kurssista oli ehtinyt kulua jo reilu vuosi, joten kävin muistelemassa miten HTML5 sivun rakenne menikään. Löysin (https://terokarvinen.com/2012/short-html5-page/) hyvän lähteen mistä pääsin rakentamaan elementtejä sivulle. 
 
 
 ![image](https://github.com/user-attachments/assets/eb103c43-dcc7-4abc-8be5-3644be577434)
@@ -337,6 +337,8 @@ mdn web docs. User-Agent. https://developer.mozilla.org/en-US/docs/Web/HTTP/Head
 keycdn. 4.10.2018. Understanding the Apache Access Log. https://www.keycdn.com/support/apache-access-log. Luettu: 30.1.2025
 
 punomo. 4.3.2018HTML5 ja Web-sivun rakenne. https://punomo.fi/html5-ja-web-sivun-rakenne/. Luettu: 30.1.2025
+
+Tero Karvinen. 12.2.2012. Short HTML5 Page. https://terokarvinen.com/2012/short-html5-page/. Luettu: 30.1.2025
 
 pixabay. https://pixabay.com/
 
