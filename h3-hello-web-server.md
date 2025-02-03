@@ -283,7 +283,7 @@ curl localhost näyttää localhostin html- sisällön tekstimuotoisena.
 
 
 m) Hanki GitHub Education paketti.
-Laitoin GitHub Education hakemuksen sisään ja GitHub ei hyväksynyt ensimmäistä hakemustani, joten laitoin uuden ja odotan vahvistusta. Uskon että tässä muutaman päivän kuluessa saan asian eteenpäin.
+Laitoin GitHub Education hakemuksen sisään ja GitHub ei hyväksynyt ensimmäistä hakemustani, joten laitoin uuden ja odotan vahvistusta. Uskon että tässä muutaman päivän kuluessa saan asian eteenpäin. **PÄIVITYS 2.2.2025** GitHub Educationista tuli sähköposti, jossa minun hakemukseni on hyväksytty, joten pääsin mukaan. 
 
 
 **30.1.2025 15:00**
