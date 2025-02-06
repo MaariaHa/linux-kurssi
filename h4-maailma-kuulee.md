@@ -2,6 +2,8 @@
 
 
 ## Johdanto
+Aluksi tiivistin Susanna Lehdon ja Tero Karvisen artikkelit liittyen pilvipalvelimien käyttöön ottoon. Sen jälkeen lähdin hankkimaan omaa pilvipalvelinta, lisäämään sinne oman käyttäjän. Tarkoitus oli saada uusi pilvipalvelin toimintakuntoiseksi, jotta voisi julkaista esimerkiksi verkkosivun nettiin kaikkien nähtäville. Tämä tehtävä epäonnistui siinä mielessä, etten saanut verkkosivua toimimaan. Yritän kollegoiden avulla saada ongelman korjatuksi ja tulen tänne päivittämään mikä oli ongelmana, ja miten se korjattiin.
+
 
 ## Tiivistelmä – Teoriasta käytöntöön pilvipalvelimen avulla/ Susanna Lehto
 
@@ -30,9 +32,9 @@
 -Palvelin suojattiin palomuurilla
 
 
-- root-käyttäjällä kirjauduttiin palvelimelle
+-root-käyttäjällä kirjauduttiin palvelimelle
 
-- 
+
 -Palvelin päivitettiin
 
 
