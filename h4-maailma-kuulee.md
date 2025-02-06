@@ -86,7 +86,7 @@ Aluksi tiivistin Susanna Lehdon ja Tero Karvisen artikkelit liittyen pilvipalvel
 -Asennettiin pakettien päivitykset sekä tietoturvapäivitykset uudelle virtuaalipalvelimelle
 
 
-- $ sudo apt-get update
+-$ sudo apt-get update
 
 
 -$ sudo apt-get upgrade
