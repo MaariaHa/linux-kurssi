@@ -262,7 +262,7 @@ Seuraavaksi lähdin kopioimaan SSH asetuksia root-käyttäjältä, tälle uudell
 
 
 
-![image](https://github.com/user-attachments/assets/a8a4f97e-0bc3-4cdb-92be-7fd713fc5aed
+![image](https://github.com/user-attachments/assets/a8a4f97e-0bc3-4cdb-92be-7fd713fc5aed)
 
 
 
