@@ -323,7 +323,7 @@ Seuraavaksi suljin root-käyttäjän.
 
 
 
-**c)Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. **	
+**c)Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti.**	
 
 
 **5.2.1015 14:35**
