@@ -134,7 +134,7 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
 Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 
 
-**a)**	
+**a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta.**	
 
 
 **5.2.2025 13:20**
@@ -226,7 +226,7 @@ Kävin kopioimassa UpCloudista IP-osoitteen ja kirjauduin virtuaalikoneessa root
 
 
 
-**b)**	
+**b)Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.**	
 
 
 **5.2.2025 14:00**
@@ -323,7 +323,7 @@ Seuraavaksi suljin root-käyttäjän.
 
 
 
-**c)**	
+**c)Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. **	
 
 
 **5.2.1015 14:35**
@@ -374,7 +374,7 @@ Ilmeisesti apache2 oli kuitenkin toiminnassa.
 
 Tätä en saanut nyt toimimaan, joten siirryin tässä kohtaa seuraavaan tehtävään.
 
-**d)**	
+**d)Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host.**	
 
 
 **5.2.2025 15:25**
