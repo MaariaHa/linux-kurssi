@@ -288,7 +288,7 @@ Sitten kokeilin kirjautua sisään omalla käyttäjätunnuksella.
 
 
 
-![image](https://github.com/user-attachments/assets/a491c15e-39c6-4912-8b2b-d40761e0d928
+![image](https://github.com/user-attachments/assets/a491c15e-39c6-4912-8b2b-d40761e0d928)
 
 
 
@@ -315,10 +315,10 @@ Seuraavaksi suljin root-käyttäjän.
 
 
 
-![image](https://github.com/user-attachments/assets/80f822a9-d818-452f-9121-f0f3ba86248b
+![image](https://github.com/user-attachments/assets/80f822a9-d818-452f-9121-f0f3ba86248b)
 
 
-![image](https://github.com/user-attachments/assets/c08d5d0f-2bb3-4bb4-9754-eefbdf19f641
+![image](https://github.com/user-attachments/assets/c08d5d0f-2bb3-4bb4-9754-eefbdf19f641)
 
 
 
@@ -335,7 +335,7 @@ Kirjauduin ensimmäiseksi sisään palvelimelle.
 
 
 
-![image](https://github.com/user-attachments/assets/cb5c8daf-3237-4e5f-995c-3f8accf4e28d
+![image](https://github.com/user-attachments/assets/cb5c8daf-3237-4e5f-995c-3f8accf4e28d)
 
 
 
@@ -350,7 +350,7 @@ Testisivu ei kuitenkaan jostain syystä näy.
 
 
 
-![image](https://github.com/user-attachments/assets/446d03fe-b38f-47e0-988c-6d0b94098acf
+![image](https://github.com/user-attachments/assets/446d03fe-b38f-47e0-988c-6d0b94098acf)
 
 
 Virhelokiinkaan en päässyt, onko niin ettei siellä ole vielä mitään tietoa?
@@ -427,7 +427,7 @@ Sivua ei silti löydy…
 
 
 
-![image](https://github.com/user-attachments/assets/d912f386-3c0f-406c-84ef-dbda1f4ae353
+![image](https://github.com/user-attachments/assets/d912f386-3c0f-406c-84ef-dbda1f4ae353)
 
 
 
@@ -454,7 +454,7 @@ Avasin Linux virtuaalipalvelimen ja tein heti päivitykset.
 
 
 
-![image](https://github.com/user-attachments/assets/a0718299-9e05-4c2b-b749-616b55f1ce19
+![image](https://github.com/user-attachments/assets/a0718299-9e05-4c2b-b749-616b55f1ce19)
 
 
 
