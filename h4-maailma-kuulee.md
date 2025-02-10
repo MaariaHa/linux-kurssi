@@ -166,7 +166,7 @@ Seuraavaksi asentamaan ssh clienttiä.
 
 
 
-![image](https://github.com/user-attachments/assets/6d25d36f-27a5-4d93-b74e-0e5f787ef92f
+![image](https://github.com/user-attachments/assets/6d25d36f-27a5-4d93-b74e-0e5f787ef92f)
 
 
 
