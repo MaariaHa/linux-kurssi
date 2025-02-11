@@ -173,7 +173,7 @@ Seuraavaksi asentamaan ssh clienttiä.
 
 Seuraavaksi SSH avainten luominen.
 
-
+![image](https://github.com/user-attachments/assets/e5a1c21b-e444-44d9-98d3-1227c30e7869)
 
 
 
@@ -200,7 +200,7 @@ Kävin tallentamassa julkisen avaimen UpCLoudin serverille.
 
 
 
-![image](https://github.com/user-attachments/assets/0305e944-4a0f-4e4c-b601-8e43dce943e5)
+
 
 
 
