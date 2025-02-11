@@ -175,7 +175,7 @@ Seuraavaksi SSH avainten luominen.
 
 
 
-![image](https://github.com/user-attachments/assets/e5a1c21b-e444-44d9-98d3-1227c30e7869)
+
 
 
 Kolme kertaa enteriä painamalla pääsin eteenpäin avainten luonnissa, nyt minulla oli sekä julkinen, että yksityinen avain luotuna.
