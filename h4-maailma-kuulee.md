@@ -571,6 +571,29 @@ maariatesti.com ei kuitenkaan toiminut, joten t채ytyy paneutua seuraavaksi t채h�
 ![image](https://github.com/user-attachments/assets/8d904658-90e6-4493-b73b-4dc4783ec9da)
 
 
+K채vin viel채 tarkistamassa maariatesti.com tiedoston.
+
+
+![image](https://github.com/user-attachments/assets/fc379f85-bb29-4b50-8af9-670097b73fd1)
+
+
+Siell채 kaikki oli kunnossa.
+
+
+![image](https://github.com/user-attachments/assets/c8f00a2f-e346-4f63-a186-61b54cfc44c9)
+
+
+Kuvassa n채htiin ett채 maariatesti.com on jo enabled.
+
+
+![image](https://github.com/user-attachments/assets/5d533552-b4f5-4814-ae5e-195cd2fb5f93)
+
+
+![image](https://github.com/user-attachments/assets/43a407da-f53e-4ea6-be33-ece7a044061d)
+
+
+Verkkosivu ei silti toiminut. 
+
 
 **L채hteet:** 
 
