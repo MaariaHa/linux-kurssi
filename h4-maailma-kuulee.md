@@ -155,7 +155,7 @@ Vuokrasin UpCloudista serverin seuraavilla spekseillä:
 Siirryin virtuaalikoneelle seuraavaan vaiheeseen.
 
 
-Alkuun perinteiset pakettien päivitykset.
+Alkuun tein pakettien päivitykset.
 
 
 
@@ -541,6 +541,35 @@ Yritin käydä vielä katsomassa apachen error.logia
 
 
 Alin lokitieto viittaa, että joitain tarvittavia oikeuksia ei ole. Miten siis voisi edetä asian kanssa?
+
+
+**11.2.2025 8:00**
+
+
+Palasin tämän ongelman pariin saatuani raporttini kommenttiin vinkkiä, miten voisin korjata ongelmaa. Otin yhteyden palvelimelle ja siirryin apache2 conf tietoihin.
+
+![image](https://github.com/user-attachments/assets/7170fe21-9243-4295-8c06-6e479db91df0)
+
+
+Sieltä muokkasin yhden sanan, denied --> granted.
+
+
+![image](https://github.com/user-attachments/assets/8dfd1e82-dd8c-44c2-a076-685e3072f622)
+
+
+![image](https://github.com/user-attachments/assets/98cf2ded-bfb8-4079-9c43-9fea385f8222)
+
+
+Locahostin perusivu alkoi toimia.
+
+![image](https://github.com/user-attachments/assets/f3948036-0ed7-4159-a6df-f001ae82e4a2)
+
+
+maariatesti.com ei kuitenkaan toiminut, joten täytyy paneutua seuraavaksi tähän ongelmaan.
+
+
+![image](https://github.com/user-attachments/assets/8d904658-90e6-4493-b73b-4dc4783ec9da)
+
 
 
 **Lähteet:** 
