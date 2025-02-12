@@ -546,7 +546,7 @@ Alin lokitieto viittaa, että joitain tarvittavia oikeuksia ei ole. Miten siis v
 **11.2.2025 8:00**
 
 
-Palasin tämän ongelman pariin saatuani raporttini kommenttiin vinkkiä, miten voisin korjata ongelmaa. Otin yhteyden palvelimelle ja siirryin apache2 conf tietoihin.
+❌ **VÄÄRIN** Palasin tämän ongelman pariin saatuani raporttini kommenttiin vinkkiä, miten voisin korjata ongelmaa. Otin yhteyden palvelimelle ja siirryin apache2 conf tietoihin.
 
 ![image](https://github.com/user-attachments/assets/7170fe21-9243-4295-8c06-6e479db91df0)
 
@@ -558,6 +558,11 @@ Sieltä muokkasin yhden sanan, denied --> granted.
 
 
 ![image](https://github.com/user-attachments/assets/98cf2ded-bfb8-4079-9c43-9fea385f8222)
+
+
+**VÄÄRIN** ❌ muokattu alempana (12.2.2025) takaisin alkuperäiseksi.
+
+
 
 
 Locahostin perusivu alkoi toimia.
@@ -593,6 +598,31 @@ Kuvassa nähtiin että maariatesti.com on jo enabled.
 
 
 Verkkosivu ei silti toiminut. 
+
+**12.2.2025 11:30**
+
+Eilisellä luennolla, toisen opiskelijan kotitehtävää tarkastella sain vinkin miten korjata omaa kotisivua. 
+Lisäsin komennon `echo '<h1>HeiMaailma!</h1>' | sudo thee /var/www/html/index.html`
+
+![image](https://github.com/user-attachments/assets/2be15487-b1c1-4da9-94ea-205e8429233c)
+
+
+
+![image](https://github.com/user-attachments/assets/50457602-1633-4d3e-8e4a-4407512944d3)
+
+Verkkosivulla näkyy nyt äsken tekemäni muutos.
+
+
+Olin myös toisen vinkistä korjannnut virheellisesti apache2.conf tiedostoa, aikaisemmin, joten korjasin sen nyt takaisin. Tero Karvinen ohjeisti luennolla (11.2.2025) ettei kyseistä tiedostoa kuulu itse muokata. Joten palasin korjaamaan muutoksen takaisin alkuperäiseen tilaan komennolla:
+
+
+`sudo nano /etc/apache2/apache2.conf`
+
+
+![image](https://github.com/user-attachments/assets/b0d66997-07ef-4c68-b68c-1826b5e6fd24)
+
+
+Require all denied oli alunperinkin kyseisessä directoryssa, ja kävin sen korjaamassa takaisin **Require all granted --> Reguire all denied.**
 
 
 **Lähteet:** 
