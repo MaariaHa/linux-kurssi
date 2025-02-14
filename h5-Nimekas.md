@@ -7,7 +7,7 @@
 Tämä tehtävä oli moniosainen ja keskittyi julkisen nimen luomiseen ja sen osoittamiseen omaan, aikaisemmin luotuun palvelimeen. Tehtävä jatkui name based virtual hostin tekemiseen sekä muokkaamiseen ilman pääkäyttäjän oikeuksia.
 
 
-Seuraavassa vaiheessa tehtiin vähintään kolmen erillisen alasivun kotisivu ja kopioimaan se näkymään omalla palvelimella. Lisäksi piti tehdä kaksi alidomainia, jotka osoittavat omaan koneeseen. 
+Seuraavassa vaiheessa tehtiin vähintään kolmen erillisen alasivun kotisivu ja laittaa ne näkymään omalla palvelimella. Lisäksi piti tehdä kaksi alidomainia, jotka osoittavat omaan koneeseen. 
 
 
 Lopuksi tutkittiin `host` ja `dig`komennoilla nimen DNS-tietoja. 
