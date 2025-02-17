@@ -255,7 +255,7 @@ Kävin muokkaamassa sivuja niin, että ne avaavat myös päädomainin sivun.
 Siirryin virtuaalikoneelleni ja aloitin päivittämällä sen, jonka jälkeen otin yhteyden virtuaalipalvelimelle, ja tein päivitykset.
 
 
-Kävin muokkaamassa maariahakanpaa.copm.conf tiedostoa, johon lisäsin aliakset. Löysin tähän vinkin toisen opiskelijan rapostista. (https://github.com/jaolim/linux-servers/blob/main/h5_Nimekas.md)
+Kävin muokkaamassa maariahakanpaa.com.conf tiedostoa, johon lisäsin aliakset. Löysin tähän vinkin toisen opiskelijan rapostista. (https://github.com/jaolim/linux-servers/blob/main/h5_Nimekas.md)
 
 
 ![image](https://github.com/user-attachments/assets/a2aebb60-272e-46a4-b511-9f44306c4173)
@@ -264,7 +264,7 @@ Kävin muokkaamassa maariahakanpaa.copm.conf tiedostoa, johon lisäsin aliakset.
 Tämän jälkeen suoritin komennon `sudo systemctl restart apache2` , jotta tekemäni muutokset päivittyisivät.
 
 
-Tarkistin asian selaimessa, CNAME alidomain toimii:
+Tarkistin asian selaimessa, CNAME alidomain toimi:
 
 
 ![image](https://github.com/user-attachments/assets/deb69eda-5f0c-4877-886a-efa50a66c417)
@@ -277,7 +277,7 @@ A tietueen alidomain näyttää edelleen oletussivua:
 ![image](https://github.com/user-attachments/assets/452082fb-81e1-49f4-ae00-9b880d7e9ace)
 
 
-Kävin lisäämässä conf tiedostoon vielä A tietueen erikseen.
+Kävin lisäämässä .conf tiedostoon vielä A tietueen erikseen.
 
 
 ![image](https://github.com/user-attachments/assets/fc1b9972-bbd1-473b-8e65-3a244ea02c65)
@@ -289,7 +289,7 @@ Kävin lisäämässä conf tiedostoon vielä A tietueen erikseen.
 
 
 
-Lisätehtävänä lähdin luomaan A tietueen alidomainille, eli blog.maariahakanpaa.comille omaa name based virtual hostia.
+Lisätehtävänä lähdin luomaan A tietueen alidomainille, eli blog.maariahakanpaa.com:ille omaa name based virtual hostia.
 
 
 Aloitin `sudoedit blog.maariahakanpaa.com.conf` jonne muokkasin .conf tiedoston.
