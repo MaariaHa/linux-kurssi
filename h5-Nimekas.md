@@ -249,7 +249,7 @@ A tietueen sivu toimii, mutta sivulle tulee aikanaan oletusselaimeen tekemäni i
 CNAME tietueen sivu myös toimii, ja siinäkin tulee sama oletusselaimen index.html sivu.
 
 
-Käyn muokkaamassa sivuja niin, että ne avaavat myös päädomainin sivun.
+Kävin muokkaamassa sivuja niin, että ne avaavat myös päädomainin sivun.
 
 
 Siirryin virtuaalikoneelleni ja aloitin päivittämällä sen, jonka jälkeen otin yhteyden virtuaalipalvelimelle, ja tein päivitykset.
