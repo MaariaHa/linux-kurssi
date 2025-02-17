@@ -53,7 +53,7 @@ Tein myös toisen A tietueen, johon hostiksi laitoin www ja valueksi jälleen se
 ![image](https://github.com/user-attachments/assets/e33d180b-959b-479e-b5ee-7aea29979fa3)
 
 
-Lisättyäni omat tietueeni, oletukseni olleet @ sekä www hostit katosivat. 
+Lisättyäni omat tietueeni, oletuksena olleet @ sekä www hostit katosivat. 
 
 
 # b) Based
