@@ -44,7 +44,9 @@ Listen 443
 </VirtualHost>’
 
 
-## a)	Let’s. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii.
+
+
+# a)	Let’s. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii.
 
 
 ## 26.2.2025 klo 12:30
@@ -143,7 +145,9 @@ Kokeilin selaimessa https://maariahakanpaa.com
 Sivu toimii, ja enkryptaus on nyt myös päällä.
 
 
-## b)	A-Rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs
+
+
+# b)	A-Rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs
 
 
 ## 26.2.2025 14:05
