@@ -9,28 +9,28 @@ Tämän tehtävän tarkoituksena oli tehdä tiivistelmät kolmesta artikkelista.
 Let's Encrypt 2024: How It Works
 
 
-•	Let’s Encrypt ja ACME-protokolla mahdollistavat HTTPS-palvelimen automaattisen varmenteen hankinnan. 
-•	Tämä tapahtuu ajamalla hallintaohjelmaa palvelimella, joka tunnistetaan julkisen avaimen avulla.
-•	Agenttiohjelmisto luo avainparin ja todistaa hallintansa example.comiin suorittamalla CA:n haasteen, kuten lisäämällä DNS-tietueen tai luomalla HTTP-tiedoston.
-•	Onnistuneen todennuksen jälkeen agentti saa oikeuden hallita varmenteita. 
-•	Se voi pyytää, uusia ja perua varmenteita allekirjoittamalla hallintaviestit valtuutetulla avainparilla. 
-•	Varmennetta varten se luo PKCS#10-pyynnön, allekirjoittaa sen ja lähettää CA:lle, joka tarkistaa pyynnön, myöntää varmenteen ja tallentaa sen Certificate Transparency -lokitietoihin.
-•	Varmenteen perumiseksi agentti allekirjoittaa perumispyynnön, jonka CA tarkistaa ja julkaisee perumistiedot, jotta selaimet tietävät mitätöidä varmenteen.
+- Let’s Encrypt ja ACME-protokolla mahdollistavat HTTPS-palvelimen automaattisen varmenteen hankinnan.
+- Tämä tapahtuu ajamalla hallintaohjelmaa palvelimella, joka tunnistetaan julkisen avaimen avulla.
+- Agenttiohjelmisto luo avainparin ja todistaa hallintansa example.comiin suorittamalla CA:n haasteen, kuten lisäämällä DNS-tietueen tai luomalla HTTP-tiedoston.
+- Onnistuneen todennuksen jälkeen agentti saa oikeuden hallita varmenteita. 
+- Se voi pyytää, uusia ja perua varmenteita allekirjoittamalla hallintaviestit valtuutetulla avainparilla. 
+- Varmennetta varten se luo PKCS#10-pyynnön, allekirjoittaa sen ja lähettää CA:lle, joka tarkistaa pyynnön, myöntää varmenteen ja tallentaa sen Certificate Transparency -lokitietoihin.
+- Varmenteen perumiseksi agentti allekirjoittaa perumispyynnön, jonka CA tarkistaa ja julkaisee perumistiedot, jotta selaimet tietävät mitätöidä varmenteen.
 
 
 Lange 2024: Lego: Obtain a Certificate: Using an existing, running web server
 
 
-•	Jos palvelin toimii jo portissa 80, --http-vaihtoehto vaatii myös --http.webroot-vaihtoehdon. 
-•	Tämä tallentaa http-01-haasteen tunnisteen määritettyyn hakemistoon .well-known/acme-challenge, mutta ei käynnistä palvelinta.
-•	Hakemiston on oltava julkisesti saatavilla /-polkuna verkkotunnuksilla, jotta varmennus onnistuu. Jos se ei ole, pyynnöt on ohjattava uudelleen tähän hakemistoon.
-•	Voi käyttää olemassa olevaa palvelinta ja antaa lego-työkalun kirjoittaa haasteavaimen seuraavasti: ’ lego --accept-tos --email you@example.com --http --http.webroot /polku/webrootiin --domains example.com run’
+- Jos palvelin toimii jo portissa 80, --http-vaihtoehto vaatii myös --http.webroot-vaihtoehdon.
+- Tämä tallentaa http-01-haasteen tunnisteen määritettyyn hakemistoon .well-known/acme-challenge, mutta ei käynnistä palvelinta.
+- Hakemiston on oltava julkisesti saatavilla /-polkuna verkkotunnuksilla, jotta varmennus onnistuu. Jos se ei ole, pyynnöt on ohjattava uudelleen tähän hakemistoon.
+- Voi käyttää olemassa olevaa palvelinta ja antaa lego-työkalun kirjoittaa haasteavaimen seuraavasti: ’ lego --accept-tos --email you@example.com --http --http.webroot /polku/webrootiin --domains example.com run’
 
 
 The Apache Software Foundation 2025: Apache HTTP Server Version 2.4 [Official] Documentation: SSL/TLS Strong Encryption: How-To: Basic Configuration Example
 
 
-•	SSL konfiguraatiossa täytyy olla vähintään seuraavat asetukset:
+- SSL konfiguraatiossa täytyy olla vähintään seuraavat asetukset:
 
 
 ’ LoadModule ssl_module modules/mod_ssl.so
