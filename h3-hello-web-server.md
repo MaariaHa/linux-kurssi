@@ -3,6 +3,8 @@
 ## Johdanto
 Tämän tehtävä piti sisällään kahden artikkelin tiivistämisen. Tehtävän seuraavissa osissa testattiin weppipalvelimen toimivuutta, analysoitiin access.login rivejä, tehtiin uusi name based virtual host, tehtiin HTML5 sivu, ja kokeiltiin curl komentoja. Lisätehtävissä hankittiin GitHub Education paketti sekä laitettiin tietokone vastaamaan kahdella eri sivullla ja kahdesta eri nimestä.
 
+# x) Lue ja tiivistä
+
 **30.1.2025 10:00**
 **Name-Based Virtual Host Support**
 -	IP-pohjaisissa virtuaalipalvelimissa palvelin käyttää yhteyden IP-osoitetta oikean virtuaalipalvelimen tunnistamiseen. Tämän vuoksi jokaiselle isäntänimelle tarvitaan oma IP-osoite.
@@ -68,6 +70,9 @@ Lähde: Tero Karvinen.10.4.2018.Name Based Virtual Hosts on Apache -  Multiple W
 
 
 
+# a) Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna.
+
+
 
 **30.1.2025 10:45**
 a) Testaa, että weppipalvelin vastaa localhost-osoitteesta.
@@ -89,10 +94,13 @@ Seuraavaksi lähdin testaamaan, vieläkö toissapäivänä luomani webbipalvelin
 
 localhostista tulee vastaus, joten weppipalvein näytti olevan käynnissä ja toimivan edelleen.
 
+
+# b) Etsi lokirivit, jotka syntyvät kun palvelimelta lataa sivun.
+
+
 **30.1.2025 11:00**
 
 
-b) Etsi lokirivit, jotka syntyvät kun palvelimelta lataa sivun.
 
 
 Kokeilin vielä curl komennolla palvelimen toimivuutta komentokehoitteessa harjoituksen vuoksi.
@@ -188,10 +196,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
 https://www.keycdn.com/support/apache-access-log
 
 
+# c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä.
+
+
+
 **30.1.2025 13:14**
 
 
-c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä.
 
 Aloitin tehtävän avaamalla editorin komennolla:
 sudoedit /etc/apache2/sites-available/hattu.example.com.conf
@@ -250,10 +261,11 @@ hattu.example.com oli onnistuneesti asetettu toimintakuntoon.
 
 
 
+# e) Tee validi HTML5 sivu.
+
+
 **31.1.2025 klo 13:56**
 
-
-e) Tee validi HTML5 sivu.
 
 
 Edellisestä HTML-kurssista oli ehtinyt kulua jo reilu vuosi, joten kävin muistelemassa miten HTML5 sivun rakenne menikään. Löysin (https://terokarvinen.com/2012/short-html5-page/) hyvän lähteen mistä pääsin rakentamaan elementtejä sivulle. 
@@ -275,10 +287,16 @@ Tältä sivu näyttää selaimessa.
 ![image](https://github.com/user-attachments/assets/1722a73a-f8c5-440a-a863-802cd0f1d81b)
 
 
+
+
+# f) Anna esimerkit curl -l sekä curl komennoista. Selitä curl -l muutamasta näyttämästä otsakkeesta, mitä ne tarkoittavat.
+
+
+
+
 **30.1.2025 14:20**
 
 
-f) Anna esimerkit curl -l sekä curl komennoista. Selitä curl -l muutamasta näyttämästä otsakkeesta, mitä ne tarkoittavat.
 
 
 curl -I localhost näyttää erilaista tietoa localhostista.
@@ -308,17 +326,25 @@ curl localhost näyttää localhostin html- sisällön tekstimuotoisena.
 ![image](https://github.com/user-attachments/assets/f99f7768-fcfc-408f-b280-46863d11aa08)
 
 
+
+# m) Hanki GitHub Education paketti.
+
+
+
 **30.1.2025 14:35**
 
 
-m) Hanki GitHub Education paketti.
+
 Laitoin GitHub Education hakemuksen sisään ja GitHub ei hyväksynyt ensimmäistä hakemustani, joten laitoin uuden ja odotan vahvistusta. Uskon että tässä muutaman päivän kuluessa saan asian eteenpäin. **PÄIVITYS 2.2.2025** GitHub Educationista tuli sähköposti, jossa minun hakemukseni on hyväksytty, joten pääsin mukaan. 
+
+
+ 
+# o) Vapaaehtoinen, vaikea: Laita sama tietokone vastaamaan kahdellla eri sivulla kahdesta eri nimestä. Eli kaksi weppisiteä samalla koneelle, esim. foo.example.com ja bar.example.com. Voit simuloida nimipalvelun toimintaa hosts-tiedoston avulla.
+
 
 
 **30.1.2025 15:00**
 
-
-o) Vapaaehtoinen, vaikea: Laita sama tietokone vastaamaan kahdellla eri sivulla kahdesta eri nimestä. Eli kaksi weppisiteä samalla koneelle, esim. foo.example.com ja bar.example.com. Voit simuloida nimipalvelun toimintaa hosts-tiedoston avulla.
 
 
 Kävin lisäämässä molemmat sivut /etc/hosts tiedostoon, Tero Karvisen ohjeen mukaan. Sivut on lisätty samalle IP-osoitteelle, joka on locahostin osoite.
