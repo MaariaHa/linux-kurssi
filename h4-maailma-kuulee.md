@@ -1,8 +1,13 @@
-# h4
+# h4 Maailma kuulee
 
 
 ## Johdanto
 Aluksi tiivistin Susanna Lehdon ja Tero Karvisen artikkelit liittyen pilvipalvelimien käyttöön ottoon. Sen jälkeen lähdin hankkimaan omaa pilvipalvelinta, lisäämään sinne oman käyttäjän. Tarkoitus oli saada uusi pilvipalvelin toimintakuntoiseksi, jotta voisi julkaista esimerkiksi verkkosivun nettiin kaikkien nähtäville. Tämä tehtävä epäonnistui siinä mielessä, etten saanut verkkosivua toimimaan. Yritän kollegoiden avulla saada ongelman korjatuksi ja tulen tänne päivittämään mikä oli ongelmana, ja miten se korjattiin.
+
+
+
+# x) Lue ja tiivistä
+
 
 
 ## Tiivistelmä – Teoriasta käytöntöön pilvipalvelimen avulla/ Susanna Lehto
@@ -167,7 +172,7 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 
 
 
-**a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta.**	
+# a) Vuokraa oma virtuaalipalvelin haluamaltasi palveluntarjoajalta.
 
 
 **5.2.2025 13:20**
@@ -259,12 +264,18 @@ Kävin kopioimassa UpCloudista IP-osoitteen ja kirjauduin virtuaalikoneessa root
 
 
 
-**b)Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.**	
+# b)Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+
+
 
 
 **5.2.2025 14:00**
 
+
+
 Kirjauduin root-käyttäjänä sisään.
+
+
 
 
 ![image](https://github.com/user-attachments/assets/64a1f67a-9637-4b6b-acc2-04bfa1d45303)
@@ -356,10 +367,12 @@ Seuraavaksi suljin root-käyttäjän.
 
 
 
-**c)Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti.**	
+# c)Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti.
+
 
 
 **5.2.1015 14:35**
+
 
 
 Seuraavaksi siirryin asentamaan weppipalvelinta uudelle virtuaalipalvelimelleni.
@@ -407,13 +420,18 @@ Ilmeisesti apache2 oli kuitenkin toiminnassa.
 
 Tätä en saanut nyt toimimaan, joten siirryin tässä kohtaa seuraavaan tehtävään.
 
-**d)Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host.**	
+
+
+# d)Laita omalle julkiselle palvelimellesi uusi Name Based Virtual Host.
+
+
 
 
 **5.2.2025 15:25**
 
 
 Siirryin tekemään name based virtual hostia.
+
 
 ![image](https://github.com/user-attachments/assets/b9fe58d7-3909-4cf0-8bcb-a054d51cab81)
 
@@ -425,7 +443,10 @@ Lisäsin tarvittavat tiedot.
 
 ![image](https://github.com/user-attachments/assets/35663369-fa85-447a-b078-7728bf16ce09)
 
+
+
 ![image](https://github.com/user-attachments/assets/24872937-36cc-4ef9-9736-75ac0bd63362)
+
 
 
 ![image](https://github.com/user-attachments/assets/3a7e15d2-60b4-4cb0-a309-40b5e110a295)
@@ -454,6 +475,7 @@ Kävin lisäämässä hosteihin testisivun.
 
 
 ![image](https://github.com/user-attachments/assets/161e630c-ccc9-40b5-98c5-31d453d7c900)
+
 
 
 Sivua ei silti löydy…
@@ -600,22 +622,36 @@ Sieltä muokkasin yhden sanan, denied --> granted.
 
 Locahostin perusivu alkoi toimia.
 
+
+
 ![image](https://github.com/user-attachments/assets/f3948036-0ed7-4159-a6df-f001ae82e4a2)
+
+
 
 
 maariatesti.com ei kuitenkaan toiminut, joten täytyy paneutua seuraavaksi tähän ongelmaan.
 
 
+
+
 ![image](https://github.com/user-attachments/assets/8d904658-90e6-4493-b73b-4dc4783ec9da)
+
+
 
 
 Kävin vielä tarkistamassa maariatesti.com tiedoston.
 
 
+
+
 ![image](https://github.com/user-attachments/assets/fc379f85-bb29-4b50-8af9-670097b73fd1)
 
 
+
+
 Siellä kaikki oli kunnossa.
+
+
 
 
 ![image](https://github.com/user-attachments/assets/c8f00a2f-e346-4f63-a186-61b54cfc44c9)
@@ -630,18 +666,28 @@ Kuvassa nähtiin että maariatesti.com on jo enabled.
 ![image](https://github.com/user-attachments/assets/43a407da-f53e-4ea6-be33-ece7a044061d)
 
 
+
+
 Verkkosivu ei silti toiminut. 
+
+
 
 **12.2.2025 11:30**
 
+
+
 Eilisellä luennolla, toisen opiskelijan kotitehtävää tarkastella sain vinkin miten korjata omaa kotisivua. 
 Lisäsin komennon `echo '<h1>HeiMaailma!</h1>' | sudo thee /var/www/html/index.html`
+
+
 
 ![image](https://github.com/user-attachments/assets/2be15487-b1c1-4da9-94ea-205e8429233c)
 
 
 
 ![image](https://github.com/user-attachments/assets/50457602-1633-4d3e-8e4a-4407512944d3)
+
+
 
 Verkkosivulla näkyy nyt äsken tekemäni muutos.
 
