@@ -40,6 +40,35 @@ Samalle IP-osoitteelle voi siis lisätä niin monta virtual hostia kuin haluaa.
 Lähde: Tero Karvinen.10.4.2018.Name Based Virtual Hosts on Apache -  Multiple Websites to Single IP Address.
 
 
+
+## Työskentely ympäristö
+
+**Laite:** Lenovo Ideapad 3
+
+
+**Suoritin:** 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz
+
+
+**Asennettu RAM:** 8,00 Gt (7,80 Gt käytettävissä)
+
+
+**Järjestelmätyyppi:** 64-bittinen käyttöjärjestelmä, x64-suoritin
+
+
+**Versio:** Windows 11 Home, 24H2
+
+
+**Verkko:** WLAN
+
+
+![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
+
+
+**Raporttiin lisätty työskentely ympäristö 5.3.2025**
+
+
+
+
 **30.1.2025 10:45**
 a) Testaa, että weppipalvelin vastaa localhost-osoitteesta.
 
