@@ -17,6 +17,23 @@ Jonkin verran komentorivin käyttöä harjoiteltuani, huomaan miten nopea ja kä
  
 Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
+## Työskentely ympäristö
+
+**Laite:** Lenovo Ideapad 3
+**Suoritin:** 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz
+**Asennettu RAM:** 8,00 Gt (7,80 Gt käytettävissä)
+**Järjestelmätyyppi:** 64-bittinen käyttöjärjestelmä, x64-suoritin
+**Versio:** Windows 11 Home, 24H2
+**Verkko:** WLAN
+
+
+![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
+
+**Lisätty työskentely ympäristö 5.3.2025**
+
+
+
+
 # h2 Raportti
 
 
