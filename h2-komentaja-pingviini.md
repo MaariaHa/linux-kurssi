@@ -40,7 +40,7 @@ Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/20
 ![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
 
 
-**Lisätty työskentely ympäristö 5.3.2025**
+**Raporttiin lisätty työskentely ympäristö 5.3.2025**
 
 
 
