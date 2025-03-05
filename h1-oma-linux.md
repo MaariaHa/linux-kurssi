@@ -2,7 +2,9 @@
 
 Tässä tehtävässä olen tiivistänyt kaksi artikkelia, sekä kuvannut raportissa virtuaalikoneen tekemistä sekä Linuxin asennusta. 
 
-# Raportin kirjoittaminen
+# x) Lue ja tiivistä
+
+## Raportin kirjoittaminen
 -Raportin on tärkeää olla täsmällinen ja sitä kirjoitetaan koko ajan samalla kun tehtävää tehdään.
 -Raportti helpottaa ongelmanratkaisussa, kun tilannetta on jäsennelty, ja pysyy selvillä mitä on jo yritetty.
 - Toistettava toisen henkilön toimesta. Kuka vaan raporttia lukiessa pystyy tekemään samat asiat ja pääsee samaan lopputulokseen.
@@ -11,7 +13,7 @@ Tässä tehtävässä olen tiivistänyt kaksi artikkelia, sekä kuvannut raporti
 -Lähteisiin viitattaessa ne on selkeästi merkittävä tekstiin, ettei tule vaaraa plagioinnista.
 - Pahoja mokia on vältettävä. Asian täytyy pysyä totuudessa, plagiointi on ehdottoman kiellettyä, koskee sekä tekstiä, että kuvia.
 
-# Free Software Foundation
+## Free Software Foundation
 -	Vapaalla ohjelmistolla tarkoitetaan ohjelmaa, joka on käyttäjän vapaasti ajettavissa, kopioitavissa, muokattavissa ja paranneltavissa.
 -	Vapaa ohjelmisto ei kuitenkaan aina ole ilmainen rahallisesti, vaan sillä tarkoitetaan enemmän käytön suomaa vapautta.
 -	Niin sanotut ’nonfree’- ohjelmat ovat käyttäjien kontrollin yläpuolella: Ohjelma siis kontrolloi käyttäjää ja ohjelmiston kehittäjät kontrolloivat ohjelmaa.
@@ -36,9 +38,13 @@ Vapaa ohjelma tarjoaa mahdollisuuden hyödyntää näitä vapauksia. Jos käytt�
 -	Jotta vapaus ohjelmistojen kehityksessä säilyy, niiden on oltava pysyviä niin kauan kun mitään väärää ei niiden avulla tehdä. Jos ohjelmiston kehittäjä 	lisää rajoituksia omaehtoisesti ohjelmiston ehtoihin, ei se enää ole vapaasti hyödynnettävissä.
 
 ## Sopimukseen perustuvat lisenssit
--	Suurin osa vapaat ohjelmistolisenssit perustuvat tekijänoikeuteen. Se on rajoitettua, millaisia vaatimuksia tekijänoikeudella voidaan asettaa. 
+-	Suurin osa vapaat ohjelmistolisenssit perustuvat tekijänoikeuteen. Se on rajoitettua, millaisia vaatimuksia tekijänoikeudella voidaan asettaa.
 
-# h1 Raportti
+-	
+
+# a) Asenna Linux virtuaalikoneeseen.
+
+
 Tehtävänantona oli tehdä uusi virtuaalikone, johon asennetaan Linux. Tästä kirjoitetaan myös huolellinen raportti eri työvaiheista. Lähdin lähestymään tehtävään selvittämällä oman tietokoneeni ominaisuuksia ja soveltuvuutta kyseisen tehtävän suorittamiseen.
 
 Minulla oli käytössä kannettava tietokone 💻:
@@ -84,6 +90,8 @@ Latauksen valmistuttua avautui seuraava ikkuna.
 ![image](https://github.com/user-attachments/assets/6c81dc3e-95e1-4725-b6fa-3269183da0d2)
 
 Valitsen oikeasta reunasta expert mode Tero Karvisen ohjeen mukaan.
+
+
 Nimesin virtuaalikoneen, ja valitsin tiedostoistani äsken lataamani Debian ISO Imagen. Tyypiksi valitsin Linuxin ja Debianin 64-bittisen ohjeen mukaan.
 
 ![image](https://github.com/user-attachments/assets/6b51a9f6-8760-4985-9d2e-00e4b31bc448)
