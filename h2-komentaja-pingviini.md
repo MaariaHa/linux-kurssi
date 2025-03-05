@@ -2,7 +2,9 @@
 Tämän tehtävä sisältää tiivistelmän Tero Karvisen artikkelista komentokehoitteista ja niiden käytöstä. Tehtävän toiseen osioon kuului omia harjoituksia komentokehoitteen parissa ja niiden raportoiminen.
 
 
-# Perusteet komentorivin käytöstä
+# x) Lue ja tiivistä
+
+## Perusteet komentorivin käytöstä
 Komentokehoite kirjoitetaan promptin jälkeen. Seuraavaksi esittelen muutamia tavallisimpia komentokehoitteita.
 -	pwd näyttää working directoryn..
 -	ls listaa tiedostot ja kansiot working directory sisällä
@@ -45,7 +47,7 @@ Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/20
 
 
 
-# h2 Raportti
+# a) Asenna micro-editori
 
 
 **23.1.2025 9:00**
@@ -71,7 +73,10 @@ Ennen uusien ohjelmien lataamista suositellaan tekemään päivitykset.
  ![image](https://github.com/user-attachments/assets/dc23bc8c-d79d-408b-9916-0d977d700e4d)
 
  ![image](https://github.com/user-attachments/assets/09a6c140-e9fa-4b4e-af3f-801496168c50)
+ 
 
+
+# b) Asenna kolme itsellesi uutta komentoriviohjelmaa
 
 
  
@@ -112,7 +117,7 @@ Esimerkki grep komennon käytöstä:
 
  
 
-
+# c) Esittele kansiot, jotka on listattu "Command Line Basics Revisited" kappaleessa "Important directories".
 
 
 
@@ -160,7 +165,7 @@ history.log tiedosto näyttää tapahtuneet pakettitoiminnot, ja nämä tiedot v
 
 
 
-# grep harjoituksia
+# d) Näytä 2-3 kuvaavaa esimerkkiä grep-komennon käytöstä.
 
 
 grep komennolla voin asettaa haettavaksi rivejä tietyllä sanalla. Laitoin hakusanaksi punainen, ja grep komennolla näytettiin tekstitiedostosta kaikki rivit, joilla sana punainen esiintyy.
@@ -185,7 +190,7 @@ Alla olevan komennon lopussa oleva * tarkoittaa että haetaan kaikki hakemistot 
  
 grep apuja sain tältä videolta https://www.youtube.com/watch?v=Tc_jntovCM0
 
-# pipes
+# e) Näytä esimerkki putkista (pipes, "|").
 
 
 Näyttää ma kansiosta ne vain ne tiedostot, joissa lukee kissa
@@ -206,7 +211,7 @@ Seuraavaksi siirryin listaamaan koneen rautaa, ja koska minulla ei näemmä ollu
 ![image](https://github.com/user-attachments/assets/9b35e89f-4ca3-4caf-ad38-a85f95f19343)
 
 
-# Rauta
+# f) Listaa testaamasi koneen rauta (‘sudo lshw -short -sanitize’).
 
  
 Seuraavaksi pääsin tarkastelemaan virtuaalikoneen ominaisuuksia tarkemmin.
@@ -244,7 +249,7 @@ Seuraavaksi pääsin tarkastelemaan virtuaalikoneen ominaisuuksia tarkemmin.
 
 
 
-# Lokit
+# g) Valitse muutama rivi lokeista. Tulkitse ja analysoi.
 Näissä parissa lokitiedoissa näkyy edeltävän tehtävän lokitiedot.
 Ensin olen asentanut lshw jonka jälkeen rivillä näkee sudo ”session”, jonka aikana asennus tapahtuu.
 Neljännellä rivillä käytin lshw komentoa, joka näyttää virtuaalikoneen ”hardwaren” ominaisuudet.
