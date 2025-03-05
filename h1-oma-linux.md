@@ -1,4 +1,4 @@
-# Maaria Hakanpää
+# h1 Oma Linux
 
 Tässä tehtävässä olen tiivistänyt kaksi artikkelia, sekä kuvannut raportissa virtuaalikoneen tekemistä sekä Linuxin asennusta. 
 
