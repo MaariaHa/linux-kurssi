@@ -2,6 +2,27 @@
 # h7 Maalisuora
 
 
+**Työskentely ympäristö**
+
+
+**Laite:** Lenovo Ideapad 3
+
+**Suoritin:** 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz 2.42 GHz
+
+**Asennettu RAM:** 8,00 Gt (7,80 Gt käytettävissä)
+
+**Järjestelmätyyppi:** 64-bittinen käyttöjärjestelmä, x64-suoritin
+
+**Versio:** Windows 11 Home, 24H2
+
+**Verkko:** WLAN
+
+
+![image](https://github.com/user-attachments/assets/655063e8-b4cf-472e-93a8-5c0bf7344734)
+
+
+
+
 
 # a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
