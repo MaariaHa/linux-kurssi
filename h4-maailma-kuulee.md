@@ -162,6 +162,10 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 **Verkko:** WLAN
 
 
+**Virtuaalikone:**
+
+
+
 ![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
 
 
