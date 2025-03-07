@@ -69,7 +69,12 @@ Listen 443
 **Verkko:** WLAN
 
 
+**Virtuaalikone:**
+
+
+
 ![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
+
 
 
 **Raporttiin lisätty työskentely ympäristö 5.3.2025**
