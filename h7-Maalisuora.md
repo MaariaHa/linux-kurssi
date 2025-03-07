@@ -17,6 +17,8 @@
 
 **Verkko:** WLAN
 
+**Virtuaalikone:**
+
 
 ![image](https://github.com/user-attachments/assets/655063e8-b4cf-472e-93a8-5c0bf7344734)
 
