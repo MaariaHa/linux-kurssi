@@ -42,6 +42,9 @@ Lähde: Tero Karvinen.Command Line Basics Revisited. https://terokarvinen.com/20
 **Verkko:** WLAN
 
 
+**Virtuaalikone:**
+
+
 ![image](https://github.com/user-attachments/assets/3237d0ca-b5a8-480b-b253-edb331e997fe)
 
 
